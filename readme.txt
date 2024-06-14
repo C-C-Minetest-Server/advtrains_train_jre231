@@ -27,10 +27,10 @@ License of media: CC-BY-SA 3.0
 
 
 
-����Modpack�́AADVTRAINS Mod�̃A�h�I���p�b�N�ł��B
-�ڍׂȗ��p���@��ADVTRAINS Mod�̃}�j���A�������Q�Ƃ��������B
+このModpackは、ADVTRAINS Modのアドオンパックです。
+詳細な利用方法はADVTRAINS Modのマニュアルをご参照ください。
 
-����Modpack�ɂĐ����������Ȃ鑹�Q���A����҂͈�؂̐ӔC��L���܂���B
+このModpackにて生じたいかなる損害も、製作者は一切の責任を有しません。
 
-����Modpack��advtrainlib����т����̋Z�p�̉��b���󂯂Ă��܂��B
-����āAADVTRAINS Mod�̊J���Җ��Ƃ��̃��C�Z���X�𖾋L�E�p���������܂��B
+このModpackはadvtrainlibおよびこれらの技術の恩恵を受けています。
+よって、ADVTRAINS Modの開発者名とそのライセンスを明記・継承いたします。
