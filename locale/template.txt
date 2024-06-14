@@ -1,0 +1,9 @@
+# textdomain: advtrains_train_jre231
+
+##[ init.lua ]##
+Driver Stand=
+Passenger area=
+KuHa_E231=
+MoHa_E231=
+SaHa_E231=
+MoHa_E230=

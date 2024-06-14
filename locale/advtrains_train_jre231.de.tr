@@ -1,0 +1,17 @@
+# textdomain: advtrains_train_jre231
+
+##[ init.lua ]##
+Driver Stand=Führerstand
+Passenger area=
+KuHa_E231=
+MoHa_E231=
+SaHa_E231=
+MoHa_E230=
+
+
+##### not used anymore #####
+
+Driver Stand = Führerstand
+Japanese Train Engine = Japanische Personenzug-Lokomotive
+Default Seat = Standardsitzplatz
+Japanese Train Wagon = Japanischer Personenzug-Passagierwaggon

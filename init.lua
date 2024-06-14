@@ -1,9 +1,4 @@
-local S
-if minetest.get_modpath("intllib") then
-    S = intllib.Getter()
-else
-    S = function(s,a,...)a={a,...}return s:gsub("@(%d+)",function(n)return a[tonumber(n)]end)end
-end
+local S = minetest.get_translator("advtrains_train_jre231")
 
 local function jr_set_livery(self, puncher, itemstack,data)
 		-- Get color data
@@ -31,7 +26,7 @@ advtrains.register_wagon("KuHa_E231", {
 	max_speed=20,
 	seats = {
 		{
-			name=S("Driver stand"),
+			name=S("Driver Stand"),
 			attach_offset={x=0, y=8, z=18},
 			view_offset={x=0, y=0, z=0},
 			driving_ctrl_access=true,
@@ -64,13 +59,13 @@ advtrains.register_wagon("KuHa_E231", {
 	},
 	seat_groups = {
 		dstand={
-			name = "Driver Stand",
+			name = S("Driver Stand"),
 			access_to = {"pass"},
 			require_doors_open=true,
 			driving_ctrl_access=true,
 		},
 		pass={
-			name = "Passenger area",
+			name = S("Passenger area"),
 			access_to = {"dstand"},
 			require_doors_open=true,
 		},
@@ -169,7 +164,7 @@ advtrains.register_wagon("MoHa_E231", {
 	},
 	seat_groups = {
 		pass={
-			name = "Passenger area",
+			name = S("Passenger area"),
 			access_to = {},
 			require_doors_open=true,
 		},
@@ -243,7 +238,7 @@ advtrains.register_wagon("SaHa_E231", {
 	},
 	seat_groups = {
 		pass={
-			name = "Passenger area",
+			name = S("Passenger area"),
 			access_to = {},
 			require_doors_open=true,
 		},
@@ -317,7 +312,7 @@ advtrains.register_wagon("MoHa_E230", {
 	},
 	seat_groups = {
 		pass={
-			name = "Passenger area",
+			name = S("Passenger area"),
 			access_to = {},
 			require_doors_open=true,
 		},
